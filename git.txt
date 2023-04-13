@@ -1,0 +1,108 @@
+
+25411@DESKTOP-2A7EALH MINGW64 ~
+$ pwd
+/c/Users/25411
+
+25411@DESKTOP-2A7EALH MINGW64 ~
+$ nkdir demo
+bash: nkdir: command not found
+
+25411@DESKTOP-2A7EALH MINGW64 ~
+$ mkdir demo
+
+25411@DESKTOP-2A7EALH MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ Natasha
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ demo/
+ nash
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+25411@DESKTOP-2A7EALH MINGW64 ~
+$ cd demo
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo
+$ ls
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo
+$ ls
+Demo.py
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo
+$ git config --global user.name ameda-natasha
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo
+$ git config --global user.email amedanatasha1@gmail.com
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo
+$ git unit
+git: 'unit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo
+$ git init
+Initialized empty Git repository in C:/Users/25411/demo/.git/
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo (master)
+$ git add .
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo (master)
+$ git commit -m"initial commit"
+[master (root-commit) c8ada36] initial commit
+ 1 file changed, 22 insertions(+)
+ create mode 100644 Demo.py
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo (master)
+$ git remote add origin https://github.com/ameda-natasha/Demo.git
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo (master)
+$ git branch -M main
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 441 bytes | 44.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ameda-natasha/Demo.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+25411@DESKTOP-2A7EALH MINGW64 ~/demo (main)
+$
